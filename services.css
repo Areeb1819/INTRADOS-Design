@@ -1,0 +1,74 @@
+/* Services Page Hero Background Image Fix */
+.services-hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('apt.jpg') no-repeat center center !important;
+    background-size: cover !important;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Subtitle Orange Line */
+.subtitle-line {
+    display: inline-block;
+    width: 25px;
+    height: 2px;
+    background-color: #ff9800;
+}
+
+/* Tracking utility for uppercase text */
+.tracking-wider {
+    letter-spacing: 1px;
+}
+
+/* Paragraph leading */
+.leading-relaxed {
+    line-height: 1.7;
+}
+
+/* Service Card Hover & Styling */
+.service-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.service-title {
+    transition: color 0.3s ease;
+}
+
+.service-card:hover .service-title {
+    color: #ff9800 !important;
+}
+
+.bg-warning-subtle {
+    background-color: rgba(255, 152, 0, 0.1);
+}
+
+/* Feature Cards Hover Effect */
+.feature-card {
+    background-color: #f8f9fa;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.feature-card:hover {
+    background-color: #ffffff !important;
+    transform: translateY(-5px);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1) !important;
+}
+
+.service-title {
+    transition: color 0.3s ease;
+}
+
+.feature-card:hover .service-title {
+    color: #ff9800 !important;
+}
+
+.icon-box-feature {
+    transition: all 0.3s ease;
+}

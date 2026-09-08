@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intrados - Services</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">    
+    <link rel="stylesheet" href="services.css">
+
+</head>
+
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg fixed-top custom-navbar" id="mainNavbar">
+            <div class="container">
+                <a class="navbar-brand fw-bold fs-3" href="#"><span class="text-warning">INTRA</span>DOS</a>
+                <button class="navbar-toggler border-0 text-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Pages
+                            </a>
+                            <ul class="dropdown-menu shadow border-0">
+                                <li><a class="dropdown-item" href="#">Blog Page</a></li>
+                                <li><a class="dropdown-item" href="#">Blog Single</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex align-items-center gap-3">
+                        <form class="d-flex gap-2" role="search">
+                            <button class="btn btn-warning text-dark fw-semibold px-4 d-flex align-items-center gap-2"
+                                type="button" data-bs-toggle="offcanvas" data-bs-target="#searchOffcanvas">
+                                <i class="bi bi-search"></i> Search
+                            </button>
+                        </form>
+                        <button class="btn btn-link text-white text-decoration-none p-0 mode-toggle-btn"
+                            id="themeToggle">
+                            <i class="bi bi-moon fs-5"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="services-hero-section py-5 position-relative text-white"
+        style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('image_f21784.jpg') no-repeat center center; background-size: cover; min-height: 350px;">
+        <div class="container h-100 d-flex flex-column justify-content-center align-items-center text-center py-5">
+            <div
+                class="breadcrumb-pill bg-dark bg-opacity-50 px-4 py-2 rounded-pill d-inline-flex align-items-center gap-2">
+                <a href="index.html" class="text-warning text-decoration-none fw-semibold">Home</a>
+                <span class="text-white-50">&raquo;</span>
+                <span class="text-white fw-semibold">Services</span>
+            </div>
+        </div>
+    </section>
+<!-- What Happens Behind The Scenes Section -->
+<section class="py-5 my-4">
+    <div class="container">
+        <div class="row align-items-center g-5">
+            <div class="col-lg-6">
+                <div class="pe-lg-4">
+                    <div class="d-flex align-items-center gap-2 mb-2">
+                        <span class="subtitle-line" style="display: inline-block; width: 25px; height: 2px; background-color: #ff9800;"></span>
+                        <span class="text-warning text-uppercase fw-bold fs-7 tracking-wider">SERVICES INFO</span>
+                    </div>
+                    <h2 class="fw-bold display-6 mb-4 text-dark">What Happens Behind The Scenes</h2>
+                    <p class="text-muted leading-relaxed mb-3">
+                        Sed in metus libero. Sed volutpat eget dui ut tempus. Fusce fringilla tincidunt laoreet Morbi ac metus vitae diam scelerisque malesuada eget eu mauris.Cras varius lorem ac velit pharetra.
+                    </p>
+                    <p class="text-muted leading-relaxed">
+                        Lorem ipsum dolor sit amet,Ea sed illum facere aperiam sequi optio consectetur adipisicing elit. Cras varius lorem ac velit pharetra, non scelerisque mi vulputate. Phasellus bibendum.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="rounded-4 overflow-hidden shadow-sm">
+                    <!-- Yahan apni image ka naam theek kar lein (e.g., 2.jpg ya jo bhi image aapke paas hai) -->
+                    <img src="2.jpg" alt="Interior Scene" class="img-fluid w-100 object-fit-cover rounded-4" style="height: 380px;">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Special Services Section (3 Columns) -->
+<section class="py-5 bg-light">
+    <div class="container text-center py-3">
+        <div class="mb-5">
+            <div class="d-inline-flex align-items-center gap-2 mb-2">
+                <span class="subtitle-line" style="display: inline-block; width: 25px; height: 2px; background-color: #ff9800;"></span>
+                <span class="text-warning text-uppercase fw-bold fs-7 tracking-wider">WE OFFER</span>
+                <span class="subtitle-line" style="display: inline-block; width: 25px; height: 2px; background-color: #ff9800;"></span>
+            </div>
+            <h2 class="fw-bold display-6 text-dark">Speacial Services</h2>
+        </div>
+        <div class="row g-4 text-start">
+            <!-- Card 1: Lighting -->
+            <div class="col-lg-4 col-md-6">
+                <div class="service-card bg-white p-4 rounded-4 shadow-sm h-100">
+                    <div class="mb-3 overflow-hidden rounded-3">
+                        <img src="3.jpg" alt="Lighting" class="img-fluid w-100 object-fit-cover" style="height: 220px;">
+                    </div>
+                    <div class="d-flex align-items-center gap-3 mb-3">
+                        <div class="icon-box-sm bg-warning-subtle text-warning d-flex align-items-center justify-content-center rounded-2 fs-4" style="width: 50px; height: 50px;">
+                            <i class="bi bi-lightbulb"></i>
+                        </div>
+                        <h4 class="fw-bold mb-0 service-title">Lighting</h4>
+                    </div>
+                    <p class="text-muted fs-7 mb-0">Amus a ligula quam tesque ut justo, Duis sed dolor sit amet.</p>
+                </div>
+            </div>
+            <!-- Card 2: Patterns -->
+            <div class="col-lg-4 col-md-6">
+                <div class="service-card bg-white p-4 rounded-4 shadow-sm h-100">
+                    <div class="mb-3 overflow-hidden rounded-3">
+                        <img src="1.jpg" alt="Patterns" class="img-fluid w-100 object-fit-cover" style="height: 220px;">
+                    </div>
+                    <div class="d-flex align-items-center gap-3 mb-3">
+                        <div class="icon-box-sm bg-warning-subtle text-warning d-flex align-items-center justify-content-center rounded-2 fs-4" style="width: 50px; height: 50px;">
+                            <i class="bi bi-file-earmark-text"></i>
+                        </div>
+                        <h4 class="fw-bold mb-0 service-title">Patterns</h4>
+                    </div>
+                    <p class="text-muted fs-7 mb-0">Amus a ligula quam tesque ut justo, Duis sed dolor sit amet.</p>
+                </div>
+            </div>
+            <!-- Card 3: Textures -->
+            <div class="col-lg-4 col-md-6">
+                <div class="service-card bg-white p-4 rounded-4 shadow-sm h-100">
+                    <div class="mb-3 overflow-hidden rounded-3">
+                        <img src="2.jpg" alt="Textures" class="img-fluid w-100 object-fit-cover" style="height: 220px;">
+                    </div>
+                    <div class="d-flex align-items-center gap-3 mb-3">
+                        <div class="icon-box-sm bg-warning-subtle text-warning d-flex align-items-center justify-content-center rounded-2 fs-4" style="width: 50px; height: 50px;">
+                            <i class="bi bi-tools"></i>
+                        </div>
+                        <h4 class="fw-bold mb-0 service-title">Textures</h4>
+                    </div>
+                    <p class="text-muted fs-7 mb-0">Amus a ligula quam tesque ut justo, Duis sed dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="services-banner-section py-5 my-5 position-relative text-white" style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('6.jpg') no-repeat center center; background-size: cover;">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="info-text-box p-4 p-lg-5">
+                    <div class="d-flex align-items-center gap-2 mb-2">
+                        <span class="subtitle-line" style="display: inline-block; width: 25px; height: 2px; background-color: #ff9800;"></span>
+                        <span class="text-warning text-uppercase fw-bold fs-7 tracking-wider">MORE INFO</span>
+                    </div>
+                    <h2 class="fw-bold display-6 mb-4 text-white">Nulla Mollis Dapibus Nunc, Ut Rhoncus Turpis Quis.</h2>
+                    <p class="text-light opacity-85 leading-relaxed mb-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla non ipsum praesentium veritatis quam qui esse magnam commodi quisquam voluptas labore nemo at voluptatem, totam, minima recusandae assumenda.
+                    </p>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="btn btn-warning text-dark fw-bold px-4 py-2 rounded-2 shadow-sm">Read More</a>
+                        <a href="#" class="btn btn-outline-light fw-bold px-4 py-2 rounded-2">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Our Services Grid Section (4 Cards) -->
+<section class="py-5">
+    <div class="container py-3 text-center">
+        <div class="mb-5">
+            <div class="d-inline-flex align-items-center gap-2 mb-2">
+                <span class="subtitle-line" style="display: inline-block; width: 25px; height: 2px; background-color: #ff9800;"></span>
+                <span class="text-warning text-uppercase fw-bold fs-7 tracking-wider">FEATURED INFO</span>
+                <span class="subtitle-line" style="display: inline-block; width: 25px; height: 2px; background-color: #ff9800;"></span>
+            </div>
+            <h2 class="fw-bold display-6 text-dark">Our Services</h2>
+        </div>
+        <div class="row g-4">
+            <!-- Card 1: Concept Designs -->
+            <div class="col-lg-6">
+                <div class="p-4 bg-white rounded-4 d-flex align-items-center gap-4 text-start shadow-sm feature-card">
+                    <div class="icon-box-feature bg-warning text-white p-4 rounded-4 fs-2 d-flex align-items-center justify-content-center" style="width: 80px; height: 80px; min-width: 80px;">
+                        <i class="bi bi-pencil-square"></i>
+                    </div>
+                    <div>
+                        <h4 class="fw-bold mb-2 service-title">Concept Designs</h4>
+                        <p class="text-muted mb-0 fs-7">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2: Project Designs -->
+            <div class="col-lg-6">
+                <div class="p-4 bg-white rounded-4 d-flex align-items-center gap-4 text-start shadow-sm feature-card">
+                    <div class="icon-box-feature bg-warning text-white p-4 rounded-4 fs-2 d-flex align-items-center justify-content-center" style="width: 80px; height: 80px; min-width: 80px;">
+                        <i class="bi bi-images"></i>
+                    </div>
+                    <div>
+                        <h4 class="fw-bold mb-2 service-title">Project Designs</h4>
+                        <p class="text-muted mb-0 fs-7">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3: Consulting -->
+            <div class="col-lg-6">
+                <div class="p-4 bg-white rounded-4 d-flex align-items-center gap-4 text-start shadow-sm feature-card">
+                    <div class="icon-box-feature bg-warning text-white p-4 rounded-4 fs-2 d-flex align-items-center justify-content-center" style="width: 80px; height: 80px; min-width: 80px;">
+                        <i class="bi bi-people"></i>
+                    </div>
+                    <div>
+                        <h4 class="fw-bold mb-2 service-title">Consulting</h4>
+                        <p class="text-black mb-0 fs-7">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 4: Space Planning -->
+            <div class="col-lg-6">
+                <div class="p-4 bg-white rounded-4 d-flex align-items-center gap-4 text-start shadow-sm feature-card">
+                    <div class="icon-box-feature bg-warning text-white p-4 rounded-4 fs-2 d-flex align-items-center justify-content-center" style="width: 80px; height: 80px; min-width: 80px;">
+                        <i class="bi bi-house-door"></i>
+                    </div>
+                    <div>
+                        <h4 class="fw-bold mb-2 service-title">Space Planning</h4>
+                        <p class="text-muted mb-0 fs-7">Lorem ipsum dolor sit amet, elit. Id ab commodi magnam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+     <!-- footer Section -->
+    <footer class="footer-section text-white pt-5 pb-4">
+        <div class="container pt-lg-4">
+            <div class="row">
+
+                <!-- Column 1: Brand Info -->
+                <div class="col-lg-4 mb-4 mb-lg-0 pe-lg-4">
+                    <a class="navbar-brand fw-bold fs-3" href="#"><span class="text-warning">INTRA</span>DOS</a>
+                    <p class="footer-desc text-secondary mb-0">
+                        Lorem ipsum dolor sit, amet consectetur elit. Earum mollitia cum ex ipsam autem! earum sequi
+                        amet.
+                    </p>
+                </div>
+
+                <!-- Column 2: Quick Links (2 Columns inside footer) -->
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h5 class="footer-heading fw-bold mb-3">Quick Links</h5>
+                    <div class="row">
+                        <div class="col-6">
+                            <ul class="list-unstyled footer-links">
+                                <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Home</a></li>
+                                <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">About</a></li>
+                                <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Blogs</a></li>
+                                <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <ul class="list-unstyled footer-links">
+                                <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Privacy
+                                        Policy</a></li>
+                                <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Terms of
+                                        use</a></li>
+                                <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Sales and
+                                        Refunds</a></li>
+                                <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">FAQ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Column 3: Keep Connected & Newsletter -->
+                <div class="col-lg-4">
+                    <h5 class="footer-heading fw-bold mb-3">Keep Connected</h5>
+                    <p class="text-secondary small mb-3">Get Updates By Subscribe Our Weekly Newsletter</p>
+
+                    <!-- Newsletter Form -->
+                    <form class="input-group mb-4">
+                        <input type="email" class="form-control footer-input text-white border-0 shadow-none"
+                            placeholder="Your Email Address">
+                        <button class="btn btn-warning text-white px-3" type="submit">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <line x1="22" y1="2" x2="11" y2="13"></line>
+                                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                            </svg>
+                        </button>
+                    </form>
+
+                    <!-- Social Icons -->
+                    <div class="social-icons d-flex gap-3">
+                        <a href="#" class="text-secondary"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-secondary"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-secondary"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#" class="text-secondary"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-secondary"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="#" class="text-secondary"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Copyright Bar -->
+            <hr class="border-secondary my-4 opacity-25">
+            <div class="text-center pb-2">
+                <p class="text-secondary small mb-0">
+                    © 2026 Intrados. All rights reserved | Designed by <a href="#"
+                        class="text-warning text-decoration-none">Areeb Saleem</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <a href="#" id="scrollTopBtn" class="scroll-top-btn">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+            stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
