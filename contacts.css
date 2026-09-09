@@ -1,0 +1,36 @@
+.contact-hero-section {
+    /* Yahan '1.jpg' ki jagah apni pasand ki kisi bhi image ka naam rakh dein */
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('1.jpg') no-repeat center center;
+    background-size: cover;
+    padding-top: 180px;
+    padding-bottom: 120px;
+}
+
+.contact-hero-title {
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+/*map section css*/
+
+.map-container iframe {
+    width: 100%;
+    min-height: 400px;
+    display: block;
+}
+
+/* Contact Form and Details Styling */
+.form-control {
+    font-size: 0.95rem;
+}
+
+.form-control:focus {
+    background-color: #f8f9fa !important;
+    border-color: #ff9800 !important;
+    box-shadow: 0 0 0 0.25rem rgba(255, 152, 0, 0.25) !important;
+}
+
+/* Contact Info Icon alignment */
+.align-start {
+    align-items: flex-start !important;
+}
