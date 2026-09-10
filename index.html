@@ -29,13 +29,13 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-3">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="about.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="services.html">Services</a>
+                            <a class="nav-link" href="#">Services</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -57,7 +57,7 @@
                     </ul>
                     <div class="d-flex align-items-center gap-3">
                         <form class="d-flex gap-2" role="search">
-                           <button class="btn btn-warning text-dark fw-semibold px-4 d-flex align-items-center gap-2"
+                            <button class="btn btn-warning text-dark fw-semibold px-4 d-flex align-items-center gap-2"
                                 type="button" data-bs-toggle="offcanvas" data-bs-target="#searchOffcanvas">
                                 <i class="bi bi-search"></i> Search
                             </button>
@@ -91,7 +91,7 @@
                         <p class="design-sub">Designing Dreams</p>
                         <h1 class="hero-title">Modern Interior</h1>
                         <div class="imbtn">
-                            <button type="button" class="btn btn-outline-light">Read More</button>
+                            <button type="button" class="btn btn-outline-light hover">Read More</button>
                         </div>
                     </div>
                 </div>
@@ -649,87 +649,96 @@
     </section>
     <!-- footer Section -->
     <footer class="footer-section text-white pt-5 pb-4">
-    <div class="container pt-lg-4">
-        <div class="row">
-            
-            <!-- Column 1: Brand Info -->
-            <div class="col-lg-4 mb-4 mb-lg-0 pe-lg-4">
-                <a class="navbar-brand fw-bold fs-3" href="#"><span class="text-warning">INTRA</span>DOS</a>
-                <p class="footer-desc text-secondary mb-0">
-                    Lorem ipsum dolor sit, amet consectetur elit. Earum mollitia cum ex ipsam autem! earum sequi amet.
+        <div class="container pt-lg-4">
+            <div class="row">
+
+                <!-- Column 1: Brand Info -->
+                <div class="col-lg-4 mb-4 mb-lg-0 pe-lg-4">
+                    <a class="navbar-brand fw-bold fs-3" href="#"><span class="text-warning">INTRA</span>DOS</a>
+                    <p class="footer-desc text-secondary mb-0">
+                        Lorem ipsum dolor sit, amet consectetur elit. Earum mollitia cum ex ipsam autem! earum sequi
+                        amet.
+                    </p>
+                </div>
+
+                <!-- Column 2: Quick Links (2 Columns inside footer) -->
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h5 class="footer-heading fw-bold mb-3">Quick Links</h5>
+                    <div class="row">
+                        <div class="col-6">
+                            <ul class="list-unstyled footer-links">
+                                <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Home</a></li>
+                                <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">About</a></li>
+                                <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Blogs</a></li>
+                                <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <ul class="list-unstyled footer-links">
+                                <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Privacy
+                                        Policy</a></li>
+                                <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Terms of
+                                        use</a></li>
+                                <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Sales and
+                                        Refunds</a></li>
+                                <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">FAQ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Column 3: Keep Connected & Newsletter -->
+                <div class="col-lg-4">
+                    <h5 class="footer-heading fw-bold mb-3">Keep Connected</h5>
+                    <p class="text-secondary small mb-3">Get Updates By Subscribe Our Weekly Newsletter</p>
+
+                    <!-- Newsletter Form -->
+                    <form class="input-group mb-4">
+                        <input type="email" class="form-control footer-input text-white border-0 shadow-none"
+                            placeholder="Your Email Address">
+                        <button class="btn btn-warning text-white px-3" type="submit">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <line x1="22" y1="2" x2="11" y2="13"></line>
+                                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                            </svg>
+                        </button>
+                    </form>
+
+                    <!-- Social Icons -->
+                    <div class="social-icons d-flex gap-3">
+                        <a href="#" class="text-secondary"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-secondary"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-secondary"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#" class="text-secondary"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-secondary"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="#" class="text-secondary"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Copyright Bar -->
+            <hr class="border-secondary my-4 opacity-25">
+            <div class="text-center pb-2">
+                <p class="text-secondary small mb-0">
+                    © 2026 Intrados. All rights reserved | Designed by <a href="#"
+                        class="text-warning text-decoration-none">Areeb Saleem</a>
                 </p>
             </div>
-
-            <!-- Column 2: Quick Links (2 Columns inside footer) -->
-            <div class="col-lg-4 mb-4 mb-lg-0">
-                <h5 class="footer-heading fw-bold mb-3">Quick Links</h5>
-                <div class="row">
-                    <div class="col-6">
-                        <ul class="list-unstyled footer-links">
-                            <li class="mb-2"><a href="home.html" class="text-secondary text-decoration-none">Home</a></li>
-                            <li class="mb-2"><a href="about.html" class="text-secondary text-decoration-none">About</a></li>
-                            <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Blogs</a></li>
-                            <li class="mb-2"><a href="contacts.html" class="text-secondary text-decoration-none">Contact</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-6">
-                        <ul class="list-unstyled footer-links">
-                            <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Privacy Policy</a></li>
-                            <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Terms of use</a></li>
-                            <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">Sales and Refunds</a></li>
-                            <li class="mb-2"><a href="#" class="text-secondary text-decoration-none">FAQ</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Column 3: Keep Connected & Newsletter -->
-            <div class="col-lg-4">
-                <h5 class="footer-heading fw-bold mb-3">Keep Connected</h5>
-                <p class="text-secondary small mb-3">Get Updates By Subscribe Our Weekly Newsletter</p>
-                
-                <!-- Newsletter Form -->
-                <form class="input-group mb-4">
-                    <input type="email" class="form-control footer-input text-white border-0 shadow-none" placeholder="Your Email Address">
-                    <button class="btn btn-warning text-white px-3" type="submit">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <line x1="22" y1="2" x2="11" y2="13"></line>
-                            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
-                        </svg>
-                    </button>
-                </form>
-
-                <!-- Social Icons -->
-                <div class="social-icons d-flex gap-3">
-                    <a href="#" class="text-secondary"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="text-secondary"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="text-secondary"><i class="fab fa-pinterest-p"></i></a>
-                    <a href="#" class="text-secondary"><i class="fab fa-instagram"></i></a>
-                    <a href="#" class="text-secondary"><i class="fab fa-google-plus-g"></i></a>
-                    <a href="#" class="text-secondary"><i class="fab fa-linkedin-in"></i></a>
-                </div>
-            </div>
-
         </div>
+    </footer>
 
-        <!-- Copyright Bar -->
-        <hr class="border-secondary my-4 opacity-25">
-        <div class="text-center pb-2">
-            <p class="text-secondary small mb-0">
-                © 2026 Intrados. All rights reserved | Designed by <a href="#" class="text-warning text-decoration-none">Areeb Saleem</a>
-            </p>
-        </div>
-    </div>
-</footer>
-
-<!-- Scroll to Top Button -->
-<a href="#" id="scrollTopBtn" class="scroll-top-btn">
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-        <polyline points="18 15 12 9 6 15"></polyline>
-    </svg>
-</a>
-
-    <div class="offcanvas offcanvas-end search-sidebar" tabindex="-1" id="searchOffcanvas" aria-labelledby="searchOffcanvasLabel">
+    <!-- Scroll to Top Button -->
+    <a href="#" id="scrollTopBtn" class="scroll-top-btn">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+            stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </a>
+    <!-- Search Right Sidebar (Offcanvas) -->
+<div class="offcanvas offcanvas-end search-sidebar" tabindex="-1" id="searchOffcanvas" aria-labelledby="searchOffcanvasLabel">
     <div class="offcanvas-header border-bottom justify-content-end p-4">
         <button type="button" class="btn-close text-reset shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
@@ -760,151 +769,6 @@
 </div>
     <!-- Bootstrap 5.3.3 JS Bundle CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-
-    <!-- Navbar Scroll Script -->
-<script>
-        // Navbar scroll script same rahegi
-        window.addEventListener('scroll', function () {
-            const navbar = document.getElementById('mainNavbar');
-            if (window.scrollY > 50) {
-                navbar.classList.add('navbar-scrolled', 'shadow-sm');
-                navbar.classList.remove('custom-navbar');
-            } else {
-                navbar.classList.remove('navbar-scrolled', 'shadow-sm');
-                navbar.classList.add('custom-navbar');
-            }
-        });
-
-        // Naya Updated Video Toggle Function
-        function toggleVideo() {
-            var video = document.getElementById("customVideo");
-            var btn = document.getElementById("playBtn");
-
-            if (video.paused) {
-                video.play();
-                btn.style.display = "none"; // Video chalne par button chup jayega
-            } else {
-                video.pause();
-                btn.style.display = "flex"; // Video rukne par button wapis aa jayega
-            }
-        }
-
-        // Yeh line add karein taake video ke upar click karne se bhi video pause ho sakay
-        document.getElementById("customVideo").addEventListener('click', function () {
-            var video = document.getElementById("customVideo");
-            var btn = document.getElementById("playBtn");
-
-            if (!video.paused) {
-                video.pause();
-                btn.style.display = "flex"; // Button wapis show ho jayega
-            }
-        });
-
-        function openLightbox(imageSrc) {
-            var modal = document.getElementById("customLightbox");
-            var modalImg = document.getElementById("lightboxImage");
-            modal.style.display = "flex";
-            modalImg.src = imageSrc;
-        }
-
-        function closeLightbox() {
-            var modal = document.getElementById("customLightbox");
-            modal.style.display = "none";
-        }
-
-        window.onclick = function (event) {
-            var modal = document.getElementById("customLightbox");
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
-        }
-
-        // Counter Animation Script
-        document.addEventListener("DOMContentLoaded", () => {
-            const counters = document.querySelectorAll(".counter-number");
-            let speed = 200; // Jitna kam number hoga, counting utni tez hogi
-
-            const startCounting = (counter) => {
-                const target = +counter.getAttribute("data-target");
-                const count = +counter.innerText;
-                const inc = target / speed;
-
-                if (count < target) {
-                    counter.innerText = Math.ceil(count + inc);
-                    setTimeout(() => startCounting(counter), 15);
-                } else {
-                    counter.innerText = target;
-                }
-            };
-
-            // Jab user scroll kar ke is section par aaye ga tab counter shuru hoga
-            window.addEventListener("scroll", () => {
-                const section = document.querySelector(".stats-section");
-                if (section) {
-                    const sectionPos = section.getBoundingClientRect().top;
-                    const screenPos = window.innerHeight / 1.3;
-
-                    if (sectionPos < screenPos) {
-                        counters.forEach(counter => {
-                            if (counter.innerText === "0") {
-                                startCounting(counter);
-                            }
-                        });
-                    }
-                }
-            });
-        });
-
-        // Scroll to Top Click Function
-        const scrollTopBtn = document.getElementById("scrollTopBtn");
-        if (scrollTopBtn) {
-            scrollTopBtn.addEventListener("click", function(e) {
-                e.preventDefault();
-                window.scrollTo({
-                    top: 0,
-                    behavior: "smooth"
-                });
-            });
-        }
-
-        // Theme Toggle Function
-        const themeToggleBtn = document.getElementById("themeToggle");
-        const bodyElement = document.body;
-        
-        if (themeToggleBtn) {
-            const themeIcon = themeToggleBtn.querySelector("i");
-
-            // Check if user has selected dark mode previously
-            if (localStorage.getItem("theme") === "dark") {
-                bodyElement.classList.add("dark-mode");
-                if (themeIcon) {
-                    themeIcon.classList.remove("bi-moon");
-                    themeIcon.classList.add("bi-sun");
-                }
-            }
-
-            themeToggleBtn.addEventListener("click", function() {
-                bodyElement.classList.toggle("dark-mode");
-
-                if (bodyElement.classList.contains("dark-mode")) {
-                    localStorage.setItem("theme", "dark");
-                    if (themeIcon) {
-                        themeIcon.classList.remove("bi-moon");
-                        themeIcon.classList.add("bi-sun");
-                    }
-                } else {
-                    localStorage.setItem("theme", "light");
-                    if (themeIcon) {
-                        themeIcon.classList.remove("bi-sun");
-                        themeIcon.classList.add("bi-moon");
-                    }
-                }
-            });
-        }
-    </script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <!-- JavaScript File Link -->
